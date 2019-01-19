@@ -1,0 +1,21 @@
+.img-bg {
+	background:url('../images/bg_165new.jpg') no-repeat center top;
+/*　	background-repeat:no-repeat;*/
+	width: 600px;
+	height: 220px;
+
+	/*position: relative;*/
+	/*background-color: #fff;
+	border: 1px solid #e6e6e6;*/
+}
+
+.title {
+	background:url('../images/bg_165new.jpg') no-repeat center top;
+/*　	background-repeat:no-repeat;*/
+	width: 600px;
+	height: 220px;
+
+	/*position: relative;*/
+	/*background-color: #fff;
+	border: 1px solid #e6e6e6;*/
+}

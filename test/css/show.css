@@ -1,0 +1,119 @@
+#css_table {
+  /*display:table;*/
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #a66873;
+  width: 28%;
+  margin: 2% auto;
+  border-radius: .25rem;
+  }
+.thead {
+    background-color: #866369;
+}
+.thead > span{
+    padding-left: 4%;
+    color: #FFF;
+}
+.css_th {
+      /*display: table-cell;*/
+      border: 1px solid #dddddd;
+      width: 100%;
+      display: inline-block;
+  }
+.css_tr {
+      /*display: table-cell;*/
+      border: 1px solid #dddddd;
+      width: 100%;
+      display: inline-grid;
+}
+.css_th tr {
+      /*display: table-row;*/
+      border-bottom: 3px solid #ddd;
+  }
+
+.item {
+    padding-left: 6%;
+    float: left;
+    width: 33%;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+
+.itema {
+    float: left;
+    width: 10%;
+    padding-left: 4%;
+  }
+
+.itemb {
+    float: right;
+    padding-right: 2%;
+  }
+
+@media (max-width: 1550px) {
+
+.item {
+    padding-left: 6%;
+    float: left;
+    width: 33%;
+    line-height: 25px;
+  }
+
+.itema {
+    float: left;
+    width: 10%;
+    padding-left: 4%;
+  }
+
+.itemb {
+    float: right;
+    padding-right: 2%;
+  }
+
+}
+
+/*需再調整*/
+@media (max-width: 1300px) {
+
+#css_table {
+  width: 36%;
+  line-height: 40px;
+  }
+
+.item {
+    padding-left: 6%;
+    float: left;
+    width: 28%;
+  }
+
+.itema {
+    float: left;
+    width: 8%;
+    padding-left: 4%;
+  }
+
+.itemb {
+    float: right;
+    padding-right: 2%;
+  }
+
+
+}
+
+@media (max-width: 850px) {
+
+#css_table {
+  /*display:table;*/
+  text-align: left;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #a66873;
+  width: 96%;
+  margin: 2% auto;
+  border-radius: .25rem;
+  }
+
+}
